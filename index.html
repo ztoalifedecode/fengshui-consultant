@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Z TO A LIFE DECODE | Architectural Alchemy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;family=Manrope:wght@300;400;600;800&amp;family=Noto+Serif:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface": "#e5e2e1",
+                    "error-container": "#93000a",
+                    "background": "#131313",
+                    "primary-container": "#251800",
+                    "secondary-fixed-dim": "#d0c5b2",
+                    "on-error-container": "#ffdad6",
+                    "outline-variant": "#444748",
+                    "surface-dim": "#131313",
+                    "outline": "#8e9192",
+                    "surface-container-highest": "#353534",
+                    "surface-container-lowest": "#0e0e0e",
+                    "tertiary-fixed-dim": "#c8c6c8",
+                    "surface": "#131313",
+                    "on-tertiary-container": "#838285",
+                    "on-error": "#690005",
+                    "on-tertiary-fixed": "#1b1b1d",
+                    "on-primary-fixed": "#261900",
+                    "inverse-primary": "#775a19",
+                    "surface-bright": "#393939",
+                    "secondary": "#d0c5b2",
+                    "on-secondary": "#363022",
+                    "on-primary": "#412d00",
+                    "inverse-on-surface": "#313030",
+                    "secondary-container": "#4d4637",
+                    "inverse-surface": "#e5e2e1",
+                    "secondary-fixed": "#ede1cd",
+                    "primary-fixed": "#ffdea5",
+                    "surface-container": "#201f1f",
+                    "on-tertiary": "#303032",
+                    "on-secondary-fixed": "#201b0e",
+                    "on-secondary-fixed-variant": "#4d4637",
+                    "on-primary-container": "#9f7e3a",
+                    "on-tertiary-fixed-variant": "#474649",
+                    "on-primary-fixed-variant": "#5d4201",
+                    "tertiary-container": "#1a1a1c",
+                    "surface-variant": "#353534",
+                    "surface-container-low": "#1c1b1b",
+                    "primary-fixed-dim": "#e9c176",
+                    "on-background": "#e5e2e1",
+                    "surface-tint": "#e9c176",
+                    "surface-container-high": "#2a2a2a",
+                    "primary": "#e9c176",
+                    "tertiary": "#c8c6c8",
+                    "error": "#ffb4ab",
+                    "tertiary-fixed": "#e4e2e4",
+                    "on-surface-variant": "#c4c7c7",
+                    "on-secondary-container": "#beb4a1"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif", "Noto Serif SC", "serif"],
+                    "body": ["Manrope", "sans-serif"],
+                    "label": ["Manrope", "sans-serif"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; background-color: #131313; color: #e5e2e1; }
+        h1, h2, h3 { font-family: 'Noto Serif', 'Noto Serif SC', serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+        .gold-gradient { background: linear-gradient(45deg, #e9c176 0%, #9f7e3a 100%); }
+        .glass-panel { background: rgba(53, 53, 52, 0.6); backdrop-filter: blur(24px); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-primary">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full flex justify-between items-center px-8 py-6 max-w-full mx-auto bg-[#131313] dark:bg-[#131313] z-50 transition-colors duration-400">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#e9c176]" data-icon="architecture" style="">architecture</span>
+<span class="text-xl font-bold tracking-widest text-[#e5e2e1] uppercase" style="">Z TO A LIFE DECODE</span>
+</div>
+<img alt="Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0ujwAai3fu6o532UNNPcp75MUNFSbsxR-Mvf3eBdn0y2oJl-LYnMbs99YHMmgmIuU-ktt_n_Ob72LFlSgwXxm_hk8grt_qD3s4eJGoB4dUt28X2cFjhNBFHPjZB98xCGl5Bq5yTTa2HGQo2Ne686CxkednxuvsXFm-GQLbtiaB-_sLY9u81KQp5DRxhNDDPeJAJT85OXDgdD59MrA-7FKIg8J_MIbF5PEDSnjAMQbNYWwMCstcl-C2Z2HnMteCuZ-Jc-3fSLdXIF6Qo" style="height: 32px;"/>
+</header>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative min-h-[795px] flex items-end px-6 pb-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Luxurious Executive Office" class="w-full h-full object-cover opacity-50" data-alt="Ultra-modern luxury CEO office in a skyscraper with dark walnut wood, sleek grey marble, and floor-to-ceiling windows overlooking a city skyline at dusk." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzqm7wBCLQOAD92fuaAPrijBd0sB4jvrGOp6gzvCpSFMyZ-h25TfjyIUgQ2VEmjPD2zKTVr6R2Mf_rwI9nyNvXip0zd-b7mXCvKYOPVrVe6ThSC5IApEfdVgjQf_oYtua0nMrOX29vabKNitmSWzdUhGaxj3wr6xG1hDLfk8lNH5nBAgGAy4b9An151a3rFWeWZooi2eHidNKpuYH9XEl4uNBl2IUbr8NwuNyOSQXd8Kbpb2244dLW6X-G246IST_JejFv0o-_a3N-" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-2xl">
+<p class="font-label text-primary tracking-[0.2em] mb-6 text-sm uppercase" style="">Architectural FENGSHUI DESIGN</p>
+<h1 class="text-4xl md:text-6xl leading-tight mb-8" style="">
+                    很多老板不知道：<div class="" style="">一旦您坐错办公室位置，可能正在影响公司的<span class="text-primary italic" style="">“财运” </span>，</div><div><br/></div><div class="" style="">我们协助您重启企业生命力【空间生命解码】方案。
+                </div></h1>
+<p class="text-lg text-secondary mb-10 leading-relaxed font-light" style="">
+                    结合现代室内美学与古法风水布局，为您打造一个能持续产生“正确决策”的能量场。不仅是设计与装修，更是为您事业的下一个十年排忧解难。
+                </p>
+<a class="gold-gradient text-on-primary font-bold px-10 py-5 tracking-wide hover:brightness-110 transition-all duration-400 active:scale-95 inline-block text-center" href="https://wa.link/lffv9i" target="_blank">
+                    预约私人咨询（仅限企业主）
+                </a>
+</div>
+</section>
+<!-- Problem Section (Asymmetric Grid) -->
+<section class="py-32 px-6 bg-surface-container-low">
+<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-5">
+<h2 class="text-3xl md:text-5xl leading-tight mb-8" style="">为何明明很努力却总是<br/><span class="text-outline" style="">“差那一点”？</span></h2>
+<p class="text-secondary mb-12" style="">环境的磁场在无形中影响着每一个商业决策，当空间布局与您的能量产生冲突，努力往往事倍功半。</p>
+</div>
+<div class="md:col-span-7 grid gap-1">
+<div class="group p-8 bg-surface-container hover:bg-surface-container-high transition-colors duration-400">
+<div class="flex items-start gap-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="leak_add" style="">leak_add</span>
+<div>
+<h3 class="text-xl mb-2" style="">领导力流失</h3>
+<p class="text-outline text-sm leading-relaxed" style="">办公桌摆在是非地，或许可能正让您的领导力渐渐流失，导致下属执行力下降，指令难以传达。</p>
+</div>
+</div>
+</div>
+<div class="group p-8 bg-surface-container hover:bg-surface-container-high transition-colors duration-400">
+<div class="flex items-start gap-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="gavel" style="">gavel</span>
+<div>
+<h3 class="text-xl mb-2" style="">钱财无形流失</h3>
+<p class="text-outline text-sm leading-relaxed" style="">高档办公室气口密室导致的官非或人事纠纷，让辛苦积累的财富在琐事中耗尽。</p>
+</div>
+</div>
+</div>
+<div class="group p-8 bg-surface-container hover:bg-surface-container-high transition-colors duration-400">
+<div class="flex items-start gap-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="visibility_off" style="">visibility_off</span>
+<div>
+<h3 class="text-xl mb-2" style="">决策陷入迷雾</h3>
+<p class="text-outline text-sm leading-relaxed" style="">磁场不合的环境直接影响大脑皮层的逻辑分析，让您在关键时刻做出错误的战略判断。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Solution Section (Bento Style) -->
+<section class="py-32 px-6">
+<div class="max-w-6xl mx-auto">
+<div class="text-center mb-20">
+<h2 class="text-3xl md:text-5xl mb-6" style="">Z TO A LIFE DECODE<br/>以结果为导向出发</h2>
+<p class="text-primary tracking-widest uppercase font-label" style="">重新解码您的成功环境</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Feature 1 -->
+<div class="relative h-[500px] overflow-hidden group">
+<img alt="Executive Lounge Render" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Interior architectural render of a high-end executive office with a solid stone backdrop wall and warm accent lighting on a dark desk." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkmiHfh8s41MDf49FLT7xM_X2QF5h9M-y0wA-j37-BVxKcihNJWN8eWxGf91xbM12n04fUf4Y1BrDORmJ5KZJvW6Yb_m5RfttQ0UbDy7te95Ifsp57nlzABz1bMIBgXxecMC3dt94jQhB-_g7sL_mOy21GyaV67pDjuohtyfIGaOr3SvAPngEfenUqATl5IgwRSlkndxelfK5641ZJCtbgQpPLYrViwE8hMZIGbGotlSas4tccKwwIfDyTrwX9tCxTgMqBv6o9iULa" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-80"></div>
+<div class="absolute bottom-0 p-8">
+<h3 class="text-2xl mb-3" style="">决策力优化</h3>
+<p class="text-secondary text-sm" style="">坐向“方位”，思维清晰。通过精准的空间锚点锁定，提升核心决策层的专注力与预判性。</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="relative h-[500px] overflow-hidden group md:mt-12">
+<img alt="Luxury Meeting Space" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Symmetric luxury meeting room with obsidian black table and minimalist gold light fixtures, clean lines and architectural precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb4iTwsqj6nejQQP58XYN7CWDwyogonfsLNJYJ7u2YQPgVLcGvvLaPkagplJGPs7QSlt5a0Oa_jmuXdSL4zU7YftW27WvD3AkMFeYbmogWwaXcCd6dGodnDZSiumDA29EyO098z3eGXVXwt9x_2sbvOTfjBSLooChhtly0HKrKi0v-XlQWnA8HDubmMkUaZ62i4YS7HIasQkAxfhQS7kP3E6oUCMvRcyUbEdr15tppY1lZfFn1DCbtH33F_po8_w-aRC8Aat37f0u3" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-80"></div>
+<div class="absolute bottom-0 p-8">
+<h3 class="text-2xl mb-3" style="">人才凝聚磁场</h3>
+<p class="text-secondary text-sm" style="">减少内耗，贵人上门。重塑办公室内部动线，形成“纳气”之势，让优质人才资源自发向您靠拢。</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="relative h-[500px] overflow-hidden group">
+<img alt="Private Residence Layout" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Zen-inspired private master suite with soft silk textures, dark wood elements, and a serene, meditative atmosphere in moonlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwedyhRv6ZZsdEdBjEvsvpop1w94iczEx47D7VTpderQL-SWcjfppb_yuY2yuw-q5KkTXukvHGxVnjZl4PrORqNa7N9b3iTmLPS77zLF0m4wCbSX9nimo3XN1YNJr_Lo9ZaRmnLHfKh8KFulSOas3Ozb0q3I_DVxcZj96WPRFaQ423eEh1hPR18DYaMuscF3I5UaRPEBJOrlXPP8V6cHfwVKc1XvIbVbT5GcBXcmTZYWpZuR6n-4GcaD9Eag8kWlgGiPAmZCXpVu0n" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-80"></div>
+<div class="absolute bottom-0 p-8">
+<h3 class="text-2xl mb-3" style="">私宅改运布局</h3>
+<p class="text-secondary text-sm" style="">确保真正恢复能量。家是事业的电池，通过深度解码居住空间，让您在休息时也能持续蓄能。</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof (Minimalist Cards) -->
+<section class="py-32 px-6 bg-surface-container-lowest">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-16">
+<div class="flex-1">
+<span class="text-primary material-symbols-outlined text-4xl mb-6" data-icon="format_quote" style="">format_quote</span>
+<p class="text-2xl italic font-light mb-8 leading-relaxed text-on-surface" style="">“自从重新调整了 PUCHONG 办公室的布局，原本停滞了N年的海外项目竟然在两周内顺利推进，重新接洽海外生意。”</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-[1px] bg-primary"></div>
+<span class="font-label tracking-widest text-sm uppercase" style="">MADAM MENG CEN</span>
+</div>
+</div>
+<div class="flex-1">
+<span class="text-primary material-symbols-outlined text-4xl mb-6" data-icon="format_quote" style="">format_quote</span>
+<p class="text-2xl italic font-light mb-8 leading-relaxed text-on-surface" style="">“Z TO A 的方案不只是风水，更是一种空间心理学。他们保留了我们品牌的高级调性，同时解决了我们长期以来的人才流失难题。”</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-[1px] bg-primary"></div>
+<span class="font-label tracking-widest text-sm uppercase" style="">知名连锁餐饮创办人</span>
+</div>
+</div>
+</div>
+</section>
+<!-- The Offer (High Focus Card) -->
+<section class="py-32 px-6">
+<div class="max-w-4xl mx-auto p-1 bg-gradient-to-br from-primary/30 to-transparent">
+<div class="bg-surface p-12 md:p-20 text-center relative overflow-hidden">
+<!-- Subtle Glow -->
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary/10 blur-[100px] pointer-events-none"></div>
+<h2 class="text-4xl md:text-6xl mb-12 relative z-10" style="">限时私人解码方案</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16 relative z-10">
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="distance" style="">distance</span>
+<span class="text-xs font-label tracking-widest" style="">1对1 勘察</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="layers" style="">layers</span>
+<span class="text-xs font-label tracking-widest" style="">定制平面方案</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="timeline" style="">timeline</span>
+<span class="text-xs font-label tracking-widest" style="">流年运势解析</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="badge" style="">badge</span>
+<span class="text-xs font-label tracking-widest" style="">企业家命理分析</span>
+</div>
+</div>
+<div class="inline-block px-8 py-4 border border-outline-variant mb-12 bg-surface-container-low">
+<p class="text-sm tracking-widest" style="">
+                            每月仅接收 <span class="text-primary font-bold" style="">3</span> 位新客户 | 本月仅余 <span class="text-primary font-bold" style="">1</span> 个名额
+                        </p>
+</div>
+<div>
+<a class="gold-gradient text-on-primary font-bold px-12 py-6 tracking-widest uppercase hover:scale-105 transition-transform duration-400 w-full md:w-auto inline-block text-center" href="https://wa.link/lffv9i" target="_blank">
+                            立即申请您的私人解码方案
+                        </a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full px-12 py-16 grid grid-cols-1 md:grid-cols-3 gap-12 bg-[#0e0e0e] border-t border-white/[0.03]">
+<div class="flex flex-col gap-6">
+<span class="text-lg font-bold text-[#e5e2e1] tracking-widest uppercase" style="">Z TO A LIFE DECODE</span>
+<p class="text-[#8e9192] text-sm font-label leading-relaxed" style="">
+                PUCHONG JAYA HQ / SELANGOR<br/>
+                WhatsApp: 6011-5856 9415
+            </p>
+<div class="flex gap-4 mt-4">
+<span class="material-symbols-outlined text-[#8e9192] cursor-pointer hover:text-[#e9c176]" data-icon="share" style="">share</span>
+<span class="material-symbols-outlined text-[#8e9192] cursor-pointer hover:text-[#e9c176]" data-icon="mail" style="">mail</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label text-xs tracking-[0.2em] uppercase text-primary" style="">Navigations</h4>
+<ul class="flex flex-col gap-3">
+<li class="" style="">Life Decode</li>
+<li class="" style="">Contact Us</li>
+<li class="" style="">FAQs</li>
+</ul>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label text-xs tracking-[0.2em] uppercase text-primary" style="">Information</h4>
+<ul class="flex flex-col gap-3">
+<li class="" style=""><a class="text-[#8e9192] hover:text-[#e5e2e1] transition-opacity duration-400 text-sm font-label" href="#" style="">Privacy Policy</a></li>
+<li class="" style=""><a class="text-[#8e9192] hover:text-[#e5e2e1] transition-opacity duration-400 text-sm font-label" href="#" style="">Instagram</a></li>
+<li class="" style=""><a class="text-[#8e9192] hover:text-[#e5e2e1] transition-opacity duration-400 text-sm font-label" href="#" style="">LinkedIn</a></li>
+</ul>
+<p class="mt-8 text-[10px] uppercase tracking-widest text-[#8e9192]" style="">© 2024 Z TO A LIFE DECODE. ARCHITECTURAL ALCHEMY.</p>
+</div>
+</footer>
+<!-- Fixed Floating Action Element (Mobile Only Check suppressed per rule, but maintained as high-end element) -->
+<div class="fixed bottom-8 right-8 z-40">
+<a class="w-16 h-16 bg-primary flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-400" href="https://wa.link/lffv9i" style="" target="_blank">
+<span class="material-symbols-outlined text-on-primary text-3xl" data-icon="chat" style="">chat</span>
+</a>
+</div>
+</body></html>
